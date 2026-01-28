@@ -1,10 +1,5 @@
 # DOSW-Bootcamp-Laboratorio-02
 
-## Integrantes
-- Cristian Aristizabal
-- Juan Camilo Lizarazo
-- Santiago Andres Pinzón
-
 ---
 
 ## PREGUNTAS INICIALES:
