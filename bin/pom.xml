@@ -54,7 +54,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.3</version>
                 <configuration>
-                    <mainClass>edu.dosw.lab.Application</mainClass>
+                    <mainClass>edu.dosw.bootcamp.lab.Application</mainClass>
                 </configuration>
             </plugin>
 

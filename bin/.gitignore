@@ -12,13 +12,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-## IOS
-.DS_Store
-._*
-.Spotlight_V100
-.Trashes
-.fseventsd
-.TemporaryItems
 
 ### IntelliJ IDEA ###
 .idea
