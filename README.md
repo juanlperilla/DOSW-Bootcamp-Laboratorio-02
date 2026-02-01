@@ -57,8 +57,7 @@ La interfaz Cliente contiene únicamente los métodos necesarios (getDescuento, 
 ### D – Dependency Inversion Principle
 El sistema depende de abstracciones, no de implementaciones concretas:
 * El carrito y el flujo principal dependen de la interfaz Cliente.
-* La creación del cliente se delega a la fábrica.
-Esto reduce el acoplamiento.
+* La creación del cliente se delega a la fábrica.git push origin feature/Ariztizabal_Lizarazo_Pinzon_2026-1'
 ---
 
 ### Reto 2: El chef de 5 estrellas
@@ -69,6 +68,8 @@ Esto reduce el acoplamiento.
 **Descripción:**
 El reto consistía en desarrollar una aplicación que permitiera a un chef preparar hamburguesas personalizadas, donde cada cliente pudiera seleccionar libremente los ingredientes que deseara agregar. No todos los ingredientes eran obligatorios, y además el sistema debía permitir la incorporación de nuevos ingredientes en tiempo de ejecución, junto con su respectivo precio. Finalmente, se debía mostrar la hamburguesa completa con todos los ingredientes seleccionados y calcular el precio total utilizando Streams.
 
+Para resolver este problema, se aplicó el patrón de diseño Builder, perteneciente a la categoría de patrones creacionales. Este patrón fue el más adecuado debido a que permite construir objetos complejos paso a paso, facilitando la creación de hamburguesas con diferentes combinaciones de ingredientes sin necesidad de utilizar constructores extensos o rígidos.
+
 ### Categoría
 Creacional
 
@@ -78,13 +79,13 @@ El patron que se utilizo fue Builder
 ### Justificación
 El patrón Builder permite construir objetos complejos paso a paso,
 facilitando la creación de hamburguesas personalizadas con ingredientes
-opcionales sin sobrecargar constructores en tiempo de.
+opcionales sin sobrecargar constructores en tiempo de ejecución.
 
-### ¿Cómo lo aplico?
-
+### Como se aplico
 Se implementó un HamburguesaBuilder que permite agregar ingredientes
 de forma incremental. El Chef actúa como director, controlando el proceso
 de construcción. El precio total se calcula usando Streams.
+
 ---
 
 ### Reto 3: El Reino de los Vehiculos
